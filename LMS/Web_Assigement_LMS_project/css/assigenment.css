@@ -1,0 +1,54 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+.container {
+  width: 60%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* Add rounded corners to the container */
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+  color: #777;
+}
+
+.checkbox {
+  margin-bottom: 20px;
+}
+
+.file-upload {
+  margin-bottom: 20px;
+}
+
+#fileInput {
+  margin-top: 10px;
+  border-radius: 5px; /* Add rounded corners to file input */
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #8f02cb;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px; /* Add rounded corners to the button */
+}
+
+button:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Submission</title>
+    <link rel="stylesheet" href="css/assigenment.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Assignment Submission</h2>
+        <p>Opened: Monday, 16 December 2024, 12:00 AM</p>
+        <p>Due: Friday, 20 December 2024, 11:59 PM</p>
+        <form id="uploadForm" action="upload.php" method="POST" enctype="multipart/form-data">
+            <div class="checkbox">
+                <input type="checkbox" id="acknowledge" name="acknowledge">
+                <label for="acknowledge">This assignment is my own work, except where I have acknowledged the use of the works of other people.</label>
+            </div>
+
+            <div class="file-upload">
+                <input type="file" name="assignmentFile[]" id="fileInput" multiple>
+                <p>Maximum file size: 500 MB, Maximum number of files: 20</p>
+            </div>
+
+            <button type="submit" name="submit" id="submitButton">Save changes</button>
+        </form>
+    </div>
+
+    <script src="js/assigenment.js"></script>
+</body>
+</html>
