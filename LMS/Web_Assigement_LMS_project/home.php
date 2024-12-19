@@ -24,14 +24,14 @@
 
       <a href="home.php" class="logo">Education.</a>
 
-      <!-- <form action="search.php" method="post" class="search-form">
+      <form action="search.php" method="post" class="search-form">
          <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
          <button type="submit" class="fas fa-search"></button>
-      </form> -->
+      </form>
 
       <div class="icons">
          <div id="menu-btn" class="fas fa-bars"></div>
-         <!-- <div id="search-btn" class="fas fa-search"></div> -->
+         <div id="search-btn" class="fas fa-search"></div>
          <div id="user-btn" class="fas fa-user"></div>
          <div id="toggle-btn" class="fas fa-sun"></div>
       </div>
@@ -65,11 +65,11 @@
    </div>
 
    <nav class="navbar">
-      <a href="home.php"><i class="fas fa-home"></i><span>home</span></a>
-      <a href="about.php"><i class="fas fa-question"></i><span>about</span></a>
+      <a href="home.php"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.php"><i class="fas fa-question"></i><span>About</span></a>
       <a href="courses.php"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
-      <a href="calender.php"><i class="fas fa-chalkboard-user"></i><span>calender</span></a>
-      <a href="contact.php"><i class="fas fa-headset"></i><span>contact us</span></a>
+      <a href="calender.php"><i class="fas fa-chalkboard-user"></i><span>Calender</span></a>
+      <a href="contact.php"><i class="fas fa-headset"></i><span>Contact us</span></a>
       <!-- <a href="contact.php"><i class="fas fa-headset"></i><span>Chat/Call with friends</span></a> -->
    </nav>
 
