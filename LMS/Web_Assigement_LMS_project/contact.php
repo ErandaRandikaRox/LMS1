@@ -1,5 +1,11 @@
 <?php
 // Form handling
+session_start();
+
+if (!isset($_SESSION['user'])) {
+    header("Location: login.php");
+    exit;
+}
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
    $name = htmlspecialchars($_POST['name']);
    $email = htmlspecialchars($_POST['email']);
@@ -51,12 +57,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       </div>
       <div class="profile">
          <img src="images/pic-1.jpg" class="image" alt="">
-         <h3 class="name">Shaikh Anas</h3>
+         <h3 class="name"><?php echo $_SESSION['user']; ?></h3>
          <p class="role">Student</p>
-         <a href="profile.php" class="btn">View Profile</a>
+         <!-- <a href="profile.php" class="btn">View Profile</a> -->
          <div class="flex-btn">
             <a href="login.php" class="option-btn">Login</a>
-            <a href="register.php" class="option-btn">Register</a>
+            <a href="logout.php" class="option-btn">Logout</a>
          </div>
       </div>
    </section>
@@ -68,16 +74,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    </div>
    <div class="profile">
       <img src="images/pic-1.jpg" class="image" alt="">
-      <h3 class="name">Eranda</h3>
+      <h3 class="name"><?php echo $_SESSION['user']; ?></h3>
       <p class="role">Student</p>
-      <a href="profile.php" class="btn">View Profile</a>
+      <!-- <a href="profile.php" class="btn">View Profile</a> -->
    </div>
    <nav class="navbar">
       <a href="home.php"><i class="fas fa-home"></i><span>Home</span></a>
-      <a href="about.php"><i class="fas fa-question"></i><span>About</span></a>
       <a href="courses.php"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
       <a href="calender.php"><i class="fas fa-chalkboard-user"></i><span>Calender</span></a>
       <a href="contact.php"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+      <a href="about.php"><i class="fas fa-question"></i><span>About</span></a>
    </nav>
 </div>
 
