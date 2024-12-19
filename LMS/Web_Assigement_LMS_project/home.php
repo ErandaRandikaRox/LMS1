@@ -24,14 +24,14 @@
 
       <a href="home.php" class="logo">Education.</a>
 
-      <form action="search.php" method="post" class="search-form">
+      <!-- <form action="search.php" method="post" class="search-form">
          <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
          <button type="submit" class="fas fa-search"></button>
-      </form>
+      </form> -->
 
       <div class="icons">
          <div id="menu-btn" class="fas fa-bars"></div>
-         <div id="search-btn" class="fas fa-search"></div>
+         <!-- <div id="search-btn" class="fas fa-search"></div> -->
          <div id="user-btn" class="fas fa-user"></div>
          <div id="toggle-btn" class="fas fa-sun"></div>
       </div>
@@ -138,8 +138,8 @@
          <div class="tutor">
             <img src="images/pic-2.jpg" alt="">
             <div class="info">
-               <h3>john deo</h3>
-               <span>21-10-2022</span>
+               <h3>HTML</h3>
+               <span>3 hours course</span>
             </div>
          </div>
          <div class="thumb">
@@ -155,8 +155,8 @@
          <div class="tutor">
             <img src="images/pic-3.jpg" alt="">
             <div class="info">
-               <h3>john deo</h3>
-               <span>21-10-2022</span>
+               <h3>CSS</h3>
+               <span>3 hour course</span>
             </div>
          </div>
          <div class="thumb">

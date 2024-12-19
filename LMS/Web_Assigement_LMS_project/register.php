@@ -38,16 +38,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <header class="header">
    <section class="flex">
-      <a href="home.html" class="logo">Education</a>
-
-      <form action="search.html" method="post" class="search-form">
-         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
-         <button type="submit" class="fas fa-search"></button>
-      </form>
+      <a href="home.php" class="logo">Education</a>
 
       <div class="icons">
          <div id="menu-btn" class="fas fa-bars"></div>
-         <div id="search-btn" class="fas fa-search"></div>
          <div id="user-btn" class="fas fa-user"></div>
          <div id="toggle-btn" class="fas fa-sun"></div>
       </div>
@@ -56,10 +50,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
          <img src="images/pic-1.jpg" class="image" alt="">
          <h3 class="name">Shaikh Anas</h3>
          <p class="role">Student</p>
-         <a href="profile.html" class="btn">View Profile</a>
+         <a href="profile.php" class="btn">View Profile</a>
          <div class="flex-btn">
-            <a href="login.html" class="option-btn">Login</a>
-            <a href="register.html" class="option-btn">Register</a>
+            <a href="login.php" class="option-btn">Login</a>
+            <a href="register.php" class="option-btn">Register</a>
          </div>
       </div>
    </section>
@@ -74,15 +68,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       <img src="images/pic-1.jpg" class="image" alt=""> 
       <h3 class="name">Shaikh Anas</h3>
       <p class="role">Student</p>
-      <a href="profile.html" class="btn">View Profile</a>
+      <a href="profile.php" class="btn">View Profile</a>
    </div>
 
    <nav class="navbar">
-      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
-      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
-      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
-      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
-      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+      <a href="home.php"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.php"><i class="fas fa-question"></i><span>About</span></a>
+      <a href="courses.php"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="teachers.php"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+      <a href="contact.php"><i class="fas fa-headset"></i><span>Contact Us</span></a>
    </nav>
 </div>
 
@@ -97,6 +91,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       <input type="password" name="password" placeholder="Enter your password" required maxlength="20" class="box">
       
       <input type="submit" value="Register New" name="submit" class="btn">
+      <a href="loging.php" class="btn">loging</a>
    </form>
 </section>
 
